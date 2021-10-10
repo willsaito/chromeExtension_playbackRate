@@ -1,5 +1,5 @@
 {
-    "name": "Controle de Velocidade Aulas UNIP",
+    "name": "Controle de Velocidade para Video Aulas UNIP",
     "description": "Altere a velocidade das aulas em vídeo da UNIP.\n Funciona também para o YouTube, Stitcher e outros sites.",
     "version": "1.0",
     "manifest_version": 3,
