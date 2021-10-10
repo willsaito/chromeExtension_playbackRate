@@ -1,15 +1,16 @@
 // Initialize button with user's preferred color
-let button100x = document.getElementById("button100x");
-let button150x = document.getElementById("button150x");
-let button200x = document.getElementById("button200x");
-let button250x = document.getElementById("button250x");
+let buttonX100 = document.getElementById("buttonX100");
+let buttonX150 = document.getElementById("buttonX150");
+let buttonX200 = document.getElementById("buttonX200");
+let buttonX250 = document.getElementById("buttonX250");
+let buttonX300 = document.getElementById("buttonX300");
 
 // chrome.storage.sync.get("color", ({ color }) => {
 //   changeColor.style.backgroundColor = color;
 // });
 
 // When the button is clicked, inject respective speed change function into current page
-button100x.addEventListener("click", async () => {
+buttonX100.addEventListener("click", async () => {
   // console.log("extensao") ;
   let [tab] = await chrome.tabs.query({
     active: true,
@@ -23,7 +24,7 @@ button100x.addEventListener("click", async () => {
     function: setPlaybackRate100,
   });
 });
-button150x.addEventListener("click", async () => {
+buttonX150.addEventListener("click", async () => {
   // console.log("extensao") ;
   let [tab] = await chrome.tabs.query({
     active: true,
@@ -37,7 +38,7 @@ button150x.addEventListener("click", async () => {
     function: setPlaybackRate150,
   });
 });
-button200x.addEventListener("click", async () => {
+buttonX200.addEventListener("click", async () => {
   // console.log("extensao") ;
   let [tab] = await chrome.tabs.query({
     active: true,
@@ -51,7 +52,7 @@ button200x.addEventListener("click", async () => {
     function: setPlaybackRate200,
   });
 });
-button250x.addEventListener("click", async () => {
+buttonX250.addEventListener("click", async () => {
   // console.log("extensao") ;
   let [tab] = await chrome.tabs.query({
     active: true,

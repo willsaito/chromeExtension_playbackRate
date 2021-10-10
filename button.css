@@ -5,12 +5,14 @@ button {
     margin: 5px;
     border: none;
     border-radius: 5px;
-    box-shadow: 2px 2px  #000000;
+    box-shadow: 2px 2px  #1a1a1a;
     
 
     font-size: 11px;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px black;
+    color: white;
   }
   
   button.current {
@@ -19,19 +21,22 @@ button {
   }
 
   body{
-    width: 220px;
+    width: 270px;
   }
-.walk{
+.X100{
   background-color:#4287f5 ;
 }
-.trot{
+.X150{
+  background-color:#35bd4c ;
+}
+.X200{
   background-color:#f5c242 ;
 
 }
-.canter{
+.X250{
   background-color:#f57b42 ;
 
 }
-.gallop{
+.X300{
   background-color:#eb4034 ;
 }
