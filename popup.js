@@ -1,13 +1,20 @@
 // Initialize button with user's preferred color
-let buttonX100 = document.getElementById("buttonX100");
-let buttonX150 = document.getElementById("buttonX150");
-let buttonX200 = document.getElementById("buttonX200");
-let buttonX250 = document.getElementById("buttonX250");
-let buttonX300 = document.getElementById("buttonX300");
+let page = document.getElementById("buttonDiv");
 
-// chrome.storage.sync.get("color", ({ color }) => {
-//   changeColor.style.backgroundColor = color;
-// });
+let buttons = [100, 150, 200, 250, 300];
+
+function handleButtonClick(event){
+  
+}
+
+function buildButtons(buttons){
+  for(let buttonElem of buttons){
+    let button = document.createElement("button");
+    button.setAttribute("class", `X${button}`);
+    button.addEventListener("click", handleButtonClick);
+    page.appendChild(button);
+  }
+}
 
 // When the button is clicked, inject respective speed change function into current page
 buttonX100.addEventListener("click", async () => {
