@@ -1,3 +1,6 @@
+h3{
+  margin-left: 5px;
+}
 button {
     height: 40px;
     width: 40px;
@@ -5,7 +8,7 @@ button {
     margin: 5px;
     border: none;
     border-radius: 5px;
-    box-shadow: 2px 2px  #1a1a1a;
+    box-shadow: 2px 2px  #5a5a5a;
     
 
     font-size: 11px;
@@ -14,14 +17,16 @@ button {
     text-shadow: 1px 1px black;
     color: white;
   }
-  
+  button:active{
+    box-shadow: 1px 1px  #5a5a5a;
+  }
   button.current {
     box-shadow: 0 0 0 2px white,
                 0 0 0 4px black;
   }
 
   body{
-    width: 270px;
+    width: 250px;
   }
 .X100{
   background-color:#4287f5 ;
