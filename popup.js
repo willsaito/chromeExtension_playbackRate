@@ -28,7 +28,7 @@ function buildButtons(buttons) {
   for (let buttonElem of buttons) {
     let button = document.createElement("button");
     button.setAttribute("class", `X${buttonElem.speed}`);
-    button.textContent = `X${(buttonElem.speed/100).toFixed(1)}`;
+    button.textContent = `X${(Math.floor(buttonElem.speed/10)/10).toFixed(1)}`;
     
   // When the button is clicked, inject respective speed change function into current page
     button.addEventListener("click", async () => {
