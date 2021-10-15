@@ -21,7 +21,8 @@ let Button = function(speed) {
     setSpeed(audio, playbackSpeed/100);
   };
 }
-let buttonList = [new Button(100), new Button(150), new Button(200), new Button(250), new Button(300)];
+let buttonList = [new Button(100), new Button(125), new Button(150), new Button(200), new Button(250), new Button(300)];
+document.getElementsByTagName("body")[0].style.width = `${50 * buttonList.length}px`;
 
 function buildButtons(buttons) {
   for (let buttonElem of buttons) {
