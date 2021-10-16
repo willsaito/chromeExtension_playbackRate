@@ -21,5 +21,6 @@
         "32": "/images/playbackRate_32.png",
         "48": "/images/playbackRate_48.png",
         "128": "/images/playbackRate_128.png"
-      }
+      },
+      "options_page": "options.html"
   }
