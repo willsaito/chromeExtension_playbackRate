@@ -23,6 +23,7 @@ button:focus {
 }
 #inputForm{
   display:none;
+  min-width: 180px;
 }
 .container{
   display: grid;
@@ -34,9 +35,12 @@ label{
 }
 .numberInput{
  margin-bottom: 5px;
+ min-width: 50px;
 }
 .colorInput{
   width: 100%;
+  min-width: 50px;
+
 }
 .confirmButton{
   height: 30px;
