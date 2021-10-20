@@ -23,7 +23,7 @@ chrome.storage.sync.get("buttons", ({
     setSpeed(audio, playbackSpeed / 100);
   }
 
-  document.getElementsByTagName("body")[0].style.width = `${50 * buttonList.length}px`;
+  // document.getElementsByTagName("body")[0].style.width = `${50 * buttonList.length}px`;
 
   function buildButtons(buttonList) {
     page.innerHTML = "";
@@ -67,7 +67,7 @@ chrome.storage.sync.get("buttons", ({
       page.appendChild(button);
     }
     if (buttonList.length < 6) {
-      document.getElementsByTagName("body")[0].style.width = `${50 * (buttonList.length + 1)}px`;
+      // document.getElementsByTagName("body")[0].style.width = `${50 * (buttonList.length + 1)}px`;
       let addButton = document.createElement("button");
       addButton.textContent = "+";
       addButton.style.backgroundColor = "#b3b3b3";
