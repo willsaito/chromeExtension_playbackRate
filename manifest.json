@@ -1,6 +1,6 @@
 {
     "name": "Controle de Velocidade para Video Aulas UNIP",
-    "description": "Altere a velocidade das aulas em vídeo da UNIP.\n Funciona também para o YouTube, Stitcher e outros sites.",
+    "description": "Altere a velocidade de reprodução de vídeos e áudios no Chrome.",
     "version": "1.0",
     "manifest_version": 3,
     "background": {
